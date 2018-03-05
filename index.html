@@ -5,19 +5,20 @@
     <title>TheGramTag</title>
     <link href="css/style.less" type="text/css" rel="stylesheet/less">
     <script src="css/less.js" type="text/javascript"></script>
+    <script src="js/animations.js" type="text/javascript"></script>
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
 </head>
 
 <body>
-    <section class="banner1">
+    <section id="1" class="banner1">
         <div class="firstBlock">
             <header>
                 <div class="header-logo">
                     <img src="media/logo.png" />
                 </div>
                 <div class="navigationBar">
-                    <a>Home</a>
-                    <a>Get Started</a>
+                    <a href="">Home</a>
+                    <a onclick="scrolltoID()">Get Started</a>
                 </div>
             </header>
             <hr>
@@ -29,7 +30,31 @@
                 <img src="media/slideshow_dots.png" />
             </div>
         </div>
+    </section>
+    <section id="2" class="pattern">
+        <div class="secondBlock">
+            <div class="left">
+                <img src="media/hashtagscreenshot.png">
+            </div>
+            <div class="right">
+                <h5>
+                    GET YOUR POST TO THE
+                </h5>
+                <img src="media/top.png" />
+                <div class="notifications">
+                    <img src="media/notifications.png" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="3" class="banner2">
+        <div class="thirdBlock">
+            <div class="subtitle">
+                <h6>Caption Management • Hashtag Generator</h6>
+                <button>Get Started</button>
+            </div>
 
+        </div>
     </section>
 
 </body>
