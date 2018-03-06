@@ -1,9 +1,13 @@
 html {
   background: #ffffff;
   overflow-x: hidden;
-}
-body {
-  margin: 0 auto;
+  .gradient-overlay {
+    background: url("../media/gradient_overlay.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
   .banner1 {
     background: url("../media/banner1.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -25,6 +29,9 @@ body {
     -o-background-size: cover;
     background-size: cover;
   }
+}
+body {
+  margin: 0 auto;
   section {
     margin: 0 auto;
     height: 100vh;
@@ -148,9 +155,131 @@ body {
           font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
           font-size: 1.75vw;
           font-weight: 350;
-          -webkit-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.3);
--moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.3);
-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.3);
+          -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+          -moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+        }
+      }
+    }
+  }
+  footer {
+    height: 10vh;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    img {
+      float: left;
+      padding-top: 3vh;
+    }
+    h4 {
+      font-size: 1vw;
+      color: #7d7d7d;
+      line-height: 10vh;
+      float: right;
+    }
+  }
+  .carousel-container {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    margin: 0 auto;
+    .carousel-card {
+      
+      position: relative;
+      display: inline-block;
+      vertical-align: middle;
+      width: 80vw;
+      height: 80vh;
+      background: white;
+      margin-top: 10vh;
+      margin-left: 10vw;
+      -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+
+      &.mod-last-card {
+        margin-right: 10vw;
+      }
+      h1 {
+        height: 15vh;
+        text-align: center;
+        overflow-wrap: break-word;
+      }
+      .carousel-wrapper {
+        display: table;
+        width: 100%;
+        height: 60%;
+        .carousel-content {
+          text-align: center;
+          display: table-cell;
+          vertical-align: middle;
+          select {
+            margin: 0 auto;
+            display: block;
+            font-size: 1vw;
+            height: 4vh;
+            width: 25vw;
+            margin-bottom: 5%;
+          }
+          .generated-text {
+            margin-top: 5vh;
+          }
+          textarea {
+            display: block;
+            margin: 0 auto;
+            width: 90%;
+            height: 90%;
+            border: none;
+            resize: none;
+            -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+            -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+            box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+            font-size: 1vw;
+          }
+        }
+      }
+      .button-container {
+        padding-bottom: 1vh;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        height: 10%;
+        display: table;
+        .next {
+          background: #62b466;
+          margin: 0 auto;
+        }
+        .back {
+          background: #7bd2ff;
+          margin: 0 auto;
+          margin: 3%;
+        }
+        .regenerate {
+          background: #62b466;
+          margin: 0 auto;
+          margin: 3%;
+        }
+        .copy-to-clipboard {
+          background: #9baefd;
+          display: block;
+          margin: 0 auto;
+        }
+        button {
+          display: table-cell;
+          vertical-align: middle;
+          margin: 2vh;
+          font-size: 1.5vw;
+          border: none;
+          color: white;
+          border-radius: 80px;
+          padding-right: 4vw;
+          padding-left: 4vw;
+          padding-top: 0.5vw;
+          padding-bottom: 0.5vw;
+          outline: none;
         }
       }
     }
