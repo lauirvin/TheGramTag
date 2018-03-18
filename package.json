@@ -21,6 +21,8 @@
     "express": "^4.16.2",
     "mysql": "^2.15.0",
     "nodejs": "0.0.0",
-    "nodemon": "^1.17.1"
+    "nodemon": "^1.17.1",
+    "readline-sync": "^1.4.9",
+    "sqlite3": "^4.0.0"
   }
 }
