@@ -27,16 +27,20 @@ const db = new sqlite3.Database(`./${DBName}.db`, err => {
 });
 
 app.get("/", (req, res) => {
+  res.sendFile(`${__dirname}/html/index.html`);
+});
+
+app.get("/getstarted", (req, res) => {
   const mainCategories = req.query.mainCategories;
   const subCategories = req.query.subCategories;
-  const data = {
+  const title = {
     title: "TheGramTag"
   };
   const sqlSelect = `SELECT ${subCategories} FROM ${mainCategories} ORDER BY RANDOM() LIMIT 5`;
   console.log(sqlSelect);
   db.all(sqlSelect, (err, all) => {
     console.log(all);
-    res.render("getstarted", { locals: data });
+    res.render("getstarted", { locals: title });
   });
 });
 
