@@ -19,6 +19,7 @@
   "homepage": "https://github.com/lauirvin/TheGramTag#readme",
   "dependencies": {
     "express": "^4.16.2",
+    "express-es6-template-engine": "^2.0.3",
     "mysql": "^2.15.0",
     "nodejs": "0.0.0",
     "nodemon": "^1.17.1",
