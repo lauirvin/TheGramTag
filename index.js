@@ -10,7 +10,6 @@ app.use(express.static("public"));
 app.engine("html", es6Renderer);
 app.set("views", "html");
 app.set("view engine", "html");
-
 app.listen(port, () => {
   console.log(`app listening on port ${port}`);
 });
@@ -35,14 +34,14 @@ const db = new sqlite3.Database(`./${DBName}.db`, err => {
 
 // Page configurations
 app.get("/", (req, res) => {
-  res.render('index')
+  res.render("index");
 });
 
 app.get("/getstarted", (req, res) => {
   const title = {
     title: "TheGramTag"
   };
-  res.render("getstarted")
+  res.render("getstarted");
 });
 
 app.post("/generated", urlencodedParser, (req, res) => {
@@ -50,9 +49,10 @@ app.post("/generated", urlencodedParser, (req, res) => {
   const subCategories = req.body.subCategories;
   const sqlSelect = `SELECT ${subCategories} FROM ${mainCategories} ORDER BY RANDOM() LIMIT 5`;
   console.log(sqlSelect);
-  db.all(sqlSelect, (err, all) => {
-    console.log(all);
+  db.all(sqlSelect, (err, generatedText) => {
+    const data = {
+      generatedText: generatedText
+    }
+    res.render("generated", {locals: data});
   });
-  res.render("generated")
 });
-
