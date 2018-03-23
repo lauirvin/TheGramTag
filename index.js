@@ -38,12 +38,8 @@ app.get("/", (req, res) => {
 });
 
 app.get("/getstarted", (req, res) => {
-  const title = {
-    title: "TheGramTag"
-  };
   res.render("getstarted");
 });
-
 
 app.post("/generated", urlencodedParser, (req, res) => {
   const mainCategories = req.body.mainCategories;
