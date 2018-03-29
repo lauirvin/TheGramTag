@@ -44,17 +44,20 @@ app.get("/getstarted", (req, res) => {
 app.post("/generated", urlencodedParser, (req, res) => {
   const mainCategories = req.body.mainCategories;
   const subCategories = req.body.subCategories;
+  const captionStyle = req.body.document;
+  
   const sqlSelect = `SELECT ${subCategories} FROM ${mainCategories} ORDER BY RANDOM() LIMIT 30`;
   db.all(sqlSelect, (err, generatedText) => {
-    let list = []
-    generatedText.forEach((row) => {
+    let list = [];
+    generatedText.forEach(row => {
       list.push(row[`${subCategories}`]);
     });
-    let hashtags = String(list)
-    hashtags = hashtags.replace(/,/g, '\n');
+    let hashtags = String(list);
+    hashtags = hashtags.replace(/,/g, "\n");
     const data = {
-      hashtags: hashtags
-    }
+      hashtags: hashtags,
+      captionStyle: captionStyle
+    };
     res.render("generated", { locals: data });
   });
 });

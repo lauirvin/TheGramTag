@@ -53,8 +53,15 @@
           <h1>Caption Style</h1>
           <div class="carousel-wrapper">
             <div class="carousel-content">
-              <textarea id="captionStyle"></textArea>
-              <input id="captionIndex" type="button" value="->" onclick="incrementOption()">
+              <div class="caption-option">
+                <button type="button" class="previous-style" id="decrement">
+                  <img src="../media/btnprevious.png">
+                </button>
+                <textarea class="caption-style" id="captionStyle" name="document" value="#hashtag1"></textArea>
+                <button type="button" class="next-style" id="increment">
+                  <img src="../media/btnnext.png">
+                </button>
+              </div>
             </div>
           </div>
           <div class="button-container">
