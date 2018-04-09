@@ -30,4 +30,11 @@ window.onload = function() {
     }
     document.getElementById("captionStyle").value = obj[`${option}`];
   });
+  document.getElementById("decrement-mobile").addEventListener("click", function() {
+    option = option - 1;
+    if (option === 0) {
+      option = 1;
+    }
+    document.getElementById("captionStyle").value = obj[`${option}`];
+  });
 };
