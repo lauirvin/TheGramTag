@@ -4,7 +4,6 @@ function populate(s1, s2) {
   s2.innerHTML = "";
   if (s1.value == "photography") {
     var optionArray = [
-      "|",
       "general|General",
       "urban|Urban",
       "nature|Nature",
@@ -12,14 +11,12 @@ function populate(s1, s2) {
     ];
   } else if (s1.value == "travel") {
     var optionArray = [
-      "|",
       "general|General",
       "nature|Nature",
       "city|City"
     ];
   } else if (s1.value == "food") {
     var optionArray = [
-        "|", 
         "general|General",
         "american|American",
         "european|European",
@@ -29,7 +26,6 @@ function populate(s1, s2) {
     ];
   } else if (s1.value == "fashion") {
   var optionArray = [
-      "|",
       "general|General",
       "men|Men",
       "women|Women",
@@ -41,5 +37,20 @@ function populate(s1, s2) {
     newOption.value = pair[0];
     newOption.innerHTML = pair[1];
     s2.options.add(newOption);
+  }
+}
+
+function emptyForm() {
+  var mainCategories = document.getElementById("mainCategories");
+  var subCategories = document.getElementById("subCategories");
+
+  var next = document.getElementById("next");
+
+  var mainIndex = mainCategories.options[mainCategories.selectedIndex].value.length;
+  var subIndex = subCategories.options[subCategories.selectedIndex].value.length;
+
+  if ((mainIndex > 0) && (subIndex > 0)) {
+    next.style.backgroundColor = "#62b466";
+    next.disabled = false;
   }
 }

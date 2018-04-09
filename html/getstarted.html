@@ -13,7 +13,7 @@
 
 <body>
   <section class="gradient-overlay">
-    <form action="/generated" method="post" id="theForm">
+    <form onchange="emptyForm()" action="/generated" method="post" id="theForm">
       <div class="carousel-container">
         <div id="1" class="carousel-card">
           <h1>Get Started</h1>
@@ -42,7 +42,7 @@
                 </option>
               </select>
               <div class="button-container">
-                <button type="button" class="next" onclick="scrolltoCard2()">
+                <button disabled id="next" type="button" class="disabled" onclick="scrolltoCard2()">
                   Next
                 </button>
               </div>
