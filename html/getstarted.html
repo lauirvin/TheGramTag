@@ -14,10 +14,10 @@
 <body>
   <section class="gradient-overlay">
     <form onchange="emptyForm()" action="/generated" method="post" id="theForm">
-      <div class="carousel-container">
-        <div id="1" class="carousel-card">
+      <div id="carousel-container" class="carousel-container">
+        <div class="carousel-card">
           <div class="carousel-wrapper">
-            <div class="card-title">
+            <div id="1" class="card-title">
               <h1>Get Started</h1>
             </div>
             <div class="carousel-content">
@@ -45,15 +45,15 @@
               </select>
             </div>
             <div class="button-container">
-              <button disabled id="next" type="button" class="disabled" onclick="scrolltoCard2()">
+              <button disabled id="next" type="button" class="disabled" onclick="scrolltoRight()">
                 Next
               </button>
             </div>
           </div>
         </div>
-        <div id="2" class="carousel-card mod-last-card">
+        <div class="carousel-card mod-last-card">
           <div class="carousel-wrapper">
-            <div class="card-title">
+            <div id="2" class="card-title">
               <h1>Caption Style</h1>
             </div>
             <div class="carousel-content">
@@ -61,7 +61,7 @@
                 <button type="button" class="previous-style" id="decrement">
                   <img src="../media/btnprevious.png">
                 </button>
-                <textarea class="caption-style" id="captionStyle" name="document" value="#hashtag1"></textArea>
+                <textarea readonly class="caption-style" id="captionStyle" name="document" value="#hashtag1"></textArea>
                 <button type="button" class="previous-style-mobile" id="decrement-mobile">
                   <img src="../media/btnprevious.png">
                 </button>
@@ -71,7 +71,7 @@
               </div>
             </div>
             <div class="button-container">
-              <button type="button" class="back" onclick="scrolltoCard1()">
+              <button type="button" class="back" onclick="scrolltoLeft()">
                 Back
               </button>
               <input class="next" id="category" type="submit" name="category" value="Next">

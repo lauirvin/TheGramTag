@@ -32,6 +32,8 @@ html {
 }
 body {
   margin: 0 auto;
+  height: 100vh;
+  width: 100vw;
   section {
     margin: 0 auto;
     height: 100vh;
@@ -168,6 +170,7 @@ body {
   .carousel-container {
     overflow-x: hidden;
     overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
     white-space: nowrap;
     height: 100vh;
     width: 100vw;
@@ -179,9 +182,6 @@ body {
       display: inline-block;
       vertical-align: middle;
       overflow: hidden;
-      &.mod-last-card {
-        margin-right: 10vw;
-      }
       .carousel-wrapper {
         height: 100%;
         h1 {

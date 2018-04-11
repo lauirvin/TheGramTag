@@ -79,6 +79,9 @@
         -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
         -moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
         box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+        &.mod-last-card {
+          margin-right: 10vw;
+        }
         .carousel-wrapper {
           select {
             font-size: 1.5vw;
@@ -86,6 +89,7 @@
             width: 50vw;
           }
           .caption-option {
+            display: inline-flex;
             .previous-style {
               display: inline-block;
             }
@@ -200,6 +204,9 @@
         -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
         -moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
         box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+        &.mod-last-card {
+          margin-right: 10vw;
+        }
         .carousel-wrapper {
           select {
             display: block;
@@ -210,6 +217,7 @@
             width: 50vw;
           }
           .caption-option {
+            display: inline-flex;
             .previous-style {
               display: inline-block;
             }
@@ -317,6 +325,9 @@
         -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
         -moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
         box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+        &.mod-last-card {
+          margin-right: 10vw;
+        }
         .carousel-wrapper {
           select {
             display: block;
@@ -378,43 +389,50 @@
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   body {
     header {
+      margin-left: 2vw;
+      margin-right: 2vw;
       .header-logo {
-        text-align: center;
-        margin-bottom: 3%;
+        width: 49%;
+        display: inline-block;
+        text-align: left;
         img {
           width: 80%;
         }
       }
       .navigationBar {
-        font-size: 5vw;
-        text-align: center;
+        width: 50%;
+        display: inline-block;
+        font-size: 2vw;
+        text-align: right;
         a {
-          margin: 4vw;
+          margin: 3vw;
         }
       }
     }
     .firstBlock {
       .header-slogan {
-        width: 73%;
+        width: 50%;
         h6 {
-          font-size: 4.5vw;
+          font-size: 2.5vw;
         }
       }
       .header-subtitle {
-        font-size: 8vw;
+        h6 {
+          font-size: 2.5vw;
+        }
         img {
-          width: 15%;
+          width: 7%;
         }
       }
     }
     .thirdBlock {
       .subtitle {
         h6 {
-          font-size: 8vw;
+          font-size: 2.5vw;
         }
       }
       a {
-        font-size: 4vw;
+        font-size: 1.5vw;
         padding-left: 2.5vw;
         padding-right: 2.5vw;
         padding-top: 1.3vh;
@@ -423,14 +441,14 @@
     }
     footer {
       img {
-        width: 50%;
+        width: 30%;
       }
       h4 {
-        font-size: 1.5vw;
+        font-size: 1vw;
       }
     }
     textarea {
-      font-size: 1.1em;
+      font-size: 1.5em;
     }
     h1 {
       font-size: 8vw;
@@ -438,20 +456,50 @@
     .carousel-container {
       .carousel-card {
         width: 80vw;
-        height: 80vw;
-      }
-      .button-container {
-        input,
-        button {
-          font-size: 4vw;
-          padding-right: 7vw;
-          padding-left: 7vw;
-          padding-top: 1vw;
-          padding-bottom: 1vw;
-          line-height: 45px;
+        height: 80vh;
+        margin-top: 10vh;
+        margin-left: 10vw;
+        -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+        &.mod-last-card {
+          margin-right: 10vw;
         }
-        .regenerate {
-          display: none;
+        .carousel-wrapper {
+          select {
+            font-size: 1.5vw;
+            margin-bottom: 5%;
+            width: 50vw;
+          }
+          .caption-option {
+            display: inline-flex;
+            .previous-style {
+              display: inline-block;
+            }
+            .previous-style-mobile {
+              display: none;
+            }
+            button {
+              width: 3vw;
+              padding: 0;
+              outline: none;
+              img {
+                padding: 3%;
+                width: 75%;
+              }
+            }
+          }
+        }
+        .button-container {
+          input,
+          button {
+            font-size: 3vw;
+            padding-right: 5.5vw;
+            padding-left: 5.5vw;
+            padding-top: 0.1vh;
+            padding-bottom: 0.1vh;
+            line-height: 50px;
+          }
         }
       }
     }
