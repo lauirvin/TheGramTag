@@ -1,0 +1,293 @@
+html {
+  background: #ffffff;
+  overflow-x: hidden;
+}
+html .gradient-overlay {
+  background: url("/media/gradient_overlay.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+html .banner1 {
+  background: url("/media/banner1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+html .pattern {
+  background: url("/media/background-pattern.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+}
+html .banner2 {
+  background: url("/media/banner2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  margin: 0 auto;
+  height: 100vh;
+  width: 100vw;
+}
+body section {
+  margin: 0 auto;
+  height: 100vh;
+}
+body section header {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 2vh;
+}
+body section header .header-logo {
+  vertical-align: middle;
+}
+body section header .navigationBar {
+  vertical-align: middle;
+  color: white;
+  font-weight: 300;
+}
+body section .firstBlock {
+  max-width: 1920px;
+  padding-top: 5vh;
+  margin: 0 auto;
+}
+body section .firstBlock hr {
+  border-color: 1px solid #ffffff;
+  width: 100%;
+}
+body section .firstBlock .header-slogan {
+  margin-left: auto;
+}
+body section .firstBlock .header-slogan h6 {
+  margin: 0;
+  text-align: right;
+  text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+  margin-top: 25vh;
+  margin-bottom: 20vh;
+  margin-right: 3vw;
+}
+body section .firstBlock .header-subtitle {
+  text-align: center;
+  height: auto;
+  position: relative;
+}
+body section .firstBlock .header-subtitle h6 {
+  margin: 0;
+  text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+}
+body section .firstBlock .header-subtitle img {
+  margin: 2%;
+}
+body section .secondBlock {
+  margin: 0 auto;
+  overflow: hidden;
+  clear: both;
+}
+body section .secondBlock .left {
+  float: left;
+  overflow: auto;
+  display: inline-block;
+}
+body section .secondBlock .left img {
+  object-fit: cover;
+  height: 100vh;
+  width: 49vw;
+}
+body section .secondBlock .right {
+  float: right;
+  height: 100vh;
+  display: inline-block;
+  text-align: center;
+  width: 49vw;
+  position: relative;
+}
+body section .secondBlock .right .poptag {
+  height: 70vh;
+  display: table-cell;
+  vertical-align: middle;
+}
+body section .secondBlock .right .poptag h5 {
+  margin-top: 10vh;
+  color: #7d7d7d;
+}
+body section .secondBlock .right .poptag img {
+  width: 80%;
+}
+body section .secondBlock .right .notifications {
+  position: absolute;
+  bottom: 0;
+}
+body section .secondBlock .right .notifications img {
+  width: 100%;
+}
+body section .thirdBlock {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1920px;
+}
+body section .thirdBlock .subtitle {
+  padding-top: 50vh;
+  margin-bottom: 5vh;
+}
+body section .thirdBlock .subtitle h6 {
+  margin: 0;
+  text-align: center;
+  text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+}
+body section .thirdBlock a {
+  text-align: center;
+  border: none;
+  background: #dd4855;
+  color: white;
+  border-radius: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 350;
+  -webkit-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.3);
+}
+body footer {
+  height: 10vh;
+  padding-right: 2vw;
+  padding-left: 2vw;
+}
+body footer img {
+  float: left;
+  padding-top: 3vh;
+}
+body footer h4 {
+  color: #7d7d7d;
+  line-height: 10vh;
+  float: right;
+}
+body .carousel-container {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  margin: 0 auto;
+}
+body .carousel-container .carousel-card {
+  background: white;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+body .carousel-container .carousel-card .carousel-wrapper {
+  height: 100%;
+}
+body .carousel-container .carousel-card .carousel-wrapper h1 {
+  overflow-wrap: break-word;
+}
+body .carousel-container .carousel-card .carousel-wrapper .card-title {
+  width: 100%;
+}
+body .carousel-container .carousel-card .carousel-wrapper .carousel-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 59%;
+}
+body .carousel-container .carousel-card .carousel-wrapper .carousel-content.mod-no-title {
+  height: 64%;
+}
+body .carousel-container .carousel-card .carousel-wrapper .carousel-content .generated-text {
+  margin-top: 5vh;
+}
+body .carousel-container .carousel-card .carousel-wrapper .carousel-content textarea {
+  height: 100%;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid black;
+  resize: none;
+  -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.3);
+  box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.3);
+}
+body .carousel-container .carousel-card .carousel-wrapper select {
+  display: block;
+  border: solid 1px black;
+  height: auto;
+}
+body .carousel-container .carousel-card .carousel-wrapper .caption-option {
+  width: 100%;
+  height: 95%;
+}
+body .carousel-container .carousel-card .carousel-wrapper .caption-option .caption-style {
+  vertical-align: middle;
+}
+body .carousel-container .carousel-card .carousel-wrapper .caption-option .next-style {
+  vertical-align: middle;
+  display: inline-block;
+  background: none;
+}
+body .carousel-container .carousel-card .carousel-wrapper .caption-option .previous-style {
+  vertical-align: middle;
+  background: none;
+}
+body .carousel-container .carousel-card .carousel-wrapper .caption-option .previous-style-mobile {
+  vertical-align: middle;
+  background: none;
+}
+body .carousel-container .button-container {
+  text-align: center;
+  max-height: 10%;
+  display: table;
+  width: 100%;
+}
+body .carousel-container .button-container.mod-multiline {
+  margin-top: 5vh;
+}
+body .carousel-container .button-container .disabled {
+  background: #c0c0c0;
+  margin: 3%;
+}
+body .carousel-container .button-container .next {
+  background: #62b466;
+  margin: 3%;
+}
+body .carousel-container .button-container .back {
+  background: #7bd2ff;
+  margin-right: 2vw;
+}
+body .carousel-container .button-container .regenerate {
+  background: #62b466;
+  margin-left: 2vw;
+}
+body .carousel-container .button-container .copy-to-clipboard {
+  background: #9baefd;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+body .carousel-container .button-container button {
+  display: table-cell;
+  vertical-align: middle;
+  border: none;
+  color: white;
+  border-radius: 80px;
+  outline: none;
+}
+body .carousel-container .button-container input {
+  color: white;
+  display: inline;
+  vertical-align: middle;
+  border: none;
+  border-radius: 80px;
+  outline: none;
+  text-align: center;
+}

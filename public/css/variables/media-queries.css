@@ -1,0 +1,729 @@
+@media (min-width: 1281px) {
+  body header {
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+  body header .header-logo {
+    width: 49%;
+    display: inline-block;
+    text-align: left;
+  }
+  body header .header-logo img {
+    width: 80%;
+  }
+  body header .navigationBar {
+    width: 50%;
+    display: inline-block;
+    font-size: 2vw;
+    text-align: right;
+  }
+  body header .navigationBar a {
+    margin: 3vw;
+  }
+  body .firstBlock .header-slogan {
+    width: 50%;
+  }
+  body .firstBlock .header-slogan h6 {
+    font-size: 2.5vw;
+  }
+  body .firstBlock .header-subtitle h6 {
+    font-size: 2.5vw;
+  }
+  body .firstBlock .header-subtitle img {
+    width: 7%;
+  }
+  body .thirdBlock .subtitle h6 {
+    font-size: 2.5vw;
+  }
+  body .thirdBlock a {
+    font-size: 1.5vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-top: 1.3vh;
+    padding-bottom: 1.3vh;
+  }
+  body footer img {
+    width: 30%;
+  }
+  body footer h4 {
+    font-size: 1vw;
+  }
+  body textarea {
+    font-size: 1.5em;
+  }
+  body h1 {
+    font-size: 8vw;
+  }
+  body .carousel-container .carousel-card {
+    width: 80vw;
+    height: 80vh;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+  }
+  body .carousel-container .carousel-card.mod-last-card {
+    margin-right: 10vw;
+  }
+  body .carousel-container .carousel-card .carousel-wrapper select {
+    font-size: 1.5vw;
+    margin-bottom: 5%;
+    width: 50vw;
+  }
+  body .carousel-container .carousel-card .carousel-wrapper .caption-option {
+    display: inline-flex;
+  }
+  body
+    .carousel-container
+    .carousel-card
+    .carousel-wrapper
+    .caption-option
+    .previous-style {
+    display: inline-block;
+  }
+  body
+    .carousel-container
+    .carousel-card
+    .carousel-wrapper
+    .caption-option
+    .previous-style-mobile {
+    display: none;
+  }
+  body
+    .carousel-container
+    .carousel-card
+    .carousel-wrapper
+    .caption-option
+    button {
+    width: 3vw;
+    padding: 0;
+    outline: none;
+  }
+  body
+    .carousel-container
+    .carousel-card
+    .carousel-wrapper
+    .caption-option
+    button
+    img {
+    padding: 3%;
+    width: 75%;
+  }
+  body .carousel-container .carousel-card .button-container input,
+  body .carousel-container .carousel-card .button-container button {
+    font-size: 2vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    padding-top: 0.1vw;
+    padding-bottom: 0.1vw;
+    line-height: 70px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  body header {
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+  body header .header-logo {
+    width: 49%;
+    display: inline-block;
+    text-align: left;
+  }
+  body header .header-logo img {
+    width: 80%;
+  }
+  body header .navigationBar {
+    width: 50%;
+    display: inline-block;
+    font-size: 2vw;
+    text-align: right;
+  }
+  body header .navigationBar a {
+    margin: 3vw;
+  }
+  body .firstBlock .header-slogan {
+    width: 50%;
+  }
+  body .firstBlock .header-slogan h6 {
+    font-size: 2.5vw;
+  }
+  body .firstBlock .header-subtitle h6 {
+    font-size: 2.5vw;
+  }
+  body .firstBlock .header-subtitle img {
+    width: 7%;
+  }
+  body .thirdBlock .subtitle h6 {
+    font-size: 4vw;
+  }
+  body .thirdBlock a {
+    font-size: 2.5vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+  body footer img {
+    width: 30%;
+  }
+  body footer h4 {
+    font-size: 1vw;
+  }
+  body textarea {
+    font-size: 1.4em;
+  }
+  body h1 {
+    font-size: 8vw;
+  }
+  body .carousel-container .carousel-card {
+    width: 80vw;
+    height: 80vh;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+  }
+  body .carousel-container .carousel-card.mod-last-card {
+    margin-right: 10vw;
+  }
+  body .carousel-container .carousel-card .carousel-wrapper select {
+    font-size: 2vw;
+    width: 25vw;
+    margin-bottom: 5%;
+    width: 50vw;
+  }
+  body .carousel-container .carousel-card .carousel-wrapper .caption-option {
+    display: inline-flex;
+  }
+  body
+    .carousel-container
+    .carousel-card
+    .carousel-wrapper
+    .caption-option
+    .previous-style {
+    display: inline-block;
+  }
+  body
+    .carousel-container
+    .carousel-card
+    .carousel-wrapper
+    .caption-option
+    .previous-style-mobile {
+    display: none;
+  }
+  body
+    .carousel-container
+    .carousel-card
+    .carousel-wrapper
+    .caption-option
+    button {
+    width: 3vw;
+    padding: 0;
+    outline: none;
+  }
+  body
+    .carousel-container
+    .carousel-card
+    .carousel-wrapper
+    .caption-option
+    button
+    img {
+    padding: 3%;
+    width: 75%;
+  }
+  body .carousel-container .carousel-card .button-container input,
+  body .carousel-container .carousel-card .button-container button {
+    font-size: 4vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    padding-top: 0.1vw;
+    padding-bottom: 0.1vw;
+    line-height: 65px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  body header .header-logo {
+    text-align: center;
+    margin-bottom: 3%;
+  }
+  body header .header-logo img {
+    width: 80%;
+  }
+  body header .navigationBar {
+    font-size: 5vw;
+    text-align: center;
+  }
+  body header .navigationBar a {
+    margin: 4vw;
+  }
+  body .firstBlock .header-slogan {
+    width: 73%;
+  }
+  body .firstBlock .header-slogan h6 {
+    font-size: 4.5vw;
+  }
+  body .firstBlock .header-subtitle {
+    font-size: 8vw;
+  }
+  body .firstBlock .header-subtitle img {
+    width: 15%;
+  }
+  body .thirdBlock .subtitle h6 {
+    font-size: 8vw;
+  }
+  body .thirdBlock a {
+    font-size: 4vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-top: 1.3vh;
+    padding-bottom: 1.3vh;
+  }
+  body footer img {
+    width: 50%;
+  }
+  body footer h4 {
+    font-size: 1.5vw;
+  }
+  body textarea {
+    font-size: 1.1em;
+  }
+  body h1 {
+    font-size: 13vw;
+  }
+  body .carousel-container .carousel-card {
+    width: 80vw;
+    height: 80vh;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+  }
+  body .carousel-container .carousel-card.mod-last-card {
+    margin-right: 10vw;
+  }
+  body .carousel-container .carousel-card .carousel-wrapper select {
+    display: block;
+    font-size: 4vw;
+    width: 50%;
+    margin-bottom: 5%;
+    border: solid 1px black;
+    width: 50vw;
+  }
+  body .carousel-container .carousel-card .carousel-wrapper select option {
+    font-size: 1vw;
+  }
+  body
+    .carousel-container
+    .carousel-card
+    .carousel-wrapper
+    .caption-option
+    .previous-style {
+    display: none;
+  }
+  body
+    .carousel-container
+    .carousel-card
+    .carousel-wrapper
+    .caption-option
+    .previous-style-mobile {
+    display: inline-block;
+    margin-right: 5vw;
+  }
+  body
+    .carousel-container
+    .carousel-card
+    .carousel-wrapper
+    .caption-option
+    button {
+    width: 7vw;
+    padding: 0;
+    outline: none;
+    margin-top: 5%;
+  }
+  body
+    .carousel-container
+    .carousel-card
+    .carousel-wrapper
+    .caption-option
+    button
+    img {
+    padding: 5%;
+    width: 75%;
+  }
+  body .carousel-container .button-container {
+    position: absolute;
+    bottom: 0;
+  }
+  body .carousel-container .button-container input,
+  body .carousel-container .button-container button {
+    font-size: 4vw;
+    padding-right: 7vw;
+    padding-left: 7vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    line-height: 45px;
+  }
+  body .carousel-container .button-container .regenerate {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  body header {
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+  body header .header-logo {
+    width: 49%;
+    display: inline-block;
+    text-align: left;
+  }
+  body header .header-logo img {
+    width: 80%;
+  }
+  body header .navigationBar {
+    width: 50%;
+    display: inline-block;
+    font-size: 2vw;
+    text-align: right;
+  }
+  body header .navigationBar a {
+    margin: 3vw;
+  }
+  body .firstBlock .header-slogan {
+    width: 50%;
+  }
+  body .firstBlock .header-slogan h6 {
+    font-size: 2.5vw;
+  }
+  body .firstBlock .header-subtitle h6 {
+    font-size: 2.5vw;
+  }
+  body .firstBlock .header-subtitle img {
+    width: 7%;
+  }
+  body .thirdBlock .subtitle h6 {
+    font-size: 2.5vw;
+  }
+  body .thirdBlock a {
+    font-size: 1.5vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-top: 1.3vh;
+    padding-bottom: 1.3vh;
+  }
+  body footer img {
+    width: 30%;
+  }
+  body footer h4 {
+    font-size: 1vw;
+  }
+  body textarea {
+    font-size: 1.5em;
+  }
+  body h1 {
+    font-size: 8vw;
+  }
+  body .carousel-container .carousel-card {
+    width: 80vw;
+    height: 80vh;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+  }
+  body .carousel-container .carousel-card.mod-last-card {
+    margin-right: 10vw;
+  }
+  body .carousel-container .carousel-card .carousel-wrapper select {
+    font-size: 1.5vw;
+    margin-bottom: 5%;
+    width: 50vw;
+  }
+  body .carousel-container .carousel-card .carousel-wrapper .caption-option {
+    display: inline-flex;
+  }
+  body
+    .carousel-container
+    .carousel-card
+    .carousel-wrapper
+    .caption-option
+    .previous-style {
+    display: inline-block;
+  }
+  body
+    .carousel-container
+    .carousel-card
+    .carousel-wrapper
+    .caption-option
+    .previous-style-mobile {
+    display: none;
+  }
+  body
+    .carousel-container
+    .carousel-card
+    .carousel-wrapper
+    .caption-option
+    button {
+    width: 3vw;
+    padding: 0;
+    outline: none;
+  }
+  body
+    .carousel-container
+    .carousel-card
+    .carousel-wrapper
+    .caption-option
+    button
+    img {
+    padding: 3%;
+    width: 75%;
+  }
+  body .carousel-container .carousel-card .button-container input,
+  body .carousel-container .carousel-card .button-container button {
+    font-size: 3vw;
+    padding-right: 5.5vw;
+    padding-left: 5.5vw;
+    padding-top: 0.1vh;
+    padding-bottom: 0.1vh;
+    line-height: 50px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  body header .header-logo {
+    text-align: center;
+    margin-bottom: 3%;
+  }
+  body header .header-logo img {
+    width: 80%;
+  }
+  body header .navigationBar {
+    font-size: 5vw;
+    text-align: center;
+  }
+  body header .navigationBar a {
+    margin: 4vw;
+  }
+  body .firstBlock .header-slogan {
+    width: 73%;
+  }
+  body .firstBlock .header-slogan h6 {
+    font-size: 4.5vw;
+  }
+  body .firstBlock .header-subtitle {
+    font-size: 8vw;
+  }
+  body .firstBlock .header-subtitle img {
+    width: 15%;
+  }
+  body .thirdBlock .subtitle h6 {
+    font-size: 8vw;
+  }
+  body .thirdBlock a {
+    font-size: 4vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-top: 1.3vh;
+    padding-bottom: 1.3vh;
+  }
+  body footer img {
+    width: 50%;
+  }
+  body footer h4 {
+    font-size: 1.5vw;
+  }
+  body textarea {
+    font-size: 1.1em;
+  }
+  body h1 {
+    font-size: 18vw;
+  }
+  body .carousel-container .carousel-card {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+  }
+  body .carousel-container .carousel-card .carousel-wrapper select {
+    display: block;
+    font-size: 5vw;
+    margin-bottom: 10%;
+    border: solid 1px black;
+    width: 75vw;
+  }
+  body
+    .carousel-container
+    .carousel-card
+    .carousel-wrapper
+    .caption-option
+    .previous-style {
+    display: none;
+  }
+  body
+    .carousel-container
+    .carousel-card
+    .carousel-wrapper
+    .caption-option
+    .previous-style-mobile {
+    display: inline-block;
+    margin-right: 5vw;
+  }
+  body
+    .carousel-container
+    .carousel-card
+    .carousel-wrapper
+    .caption-option
+    button {
+    width: 10vw;
+    padding: 0;
+    outline: none;
+    margin-top: 5%;
+  }
+  body
+    .carousel-container
+    .carousel-card
+    .carousel-wrapper
+    .caption-option
+    button
+    img {
+    padding: 5%;
+    width: 75%;
+  }
+  body .carousel-container .carousel-card .button-container {
+    position: absolute;
+    bottom: 3vh;
+  }
+  body .carousel-container .carousel-card .button-container input,
+  body .carousel-container .carousel-card .button-container button {
+    font-size: 6vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    line-height: 40px;
+  }
+  body .carousel-container .carousel-card .button-container .regenerate {
+    display: none;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  body header .header-logo {
+    text-align: center;
+    margin-bottom: 3%;
+  }
+  body header .header-logo img {
+    width: 80%;
+  }
+  body header .navigationBar {
+    font-size: 5vw;
+    text-align: center;
+  }
+  body header .navigationBar a {
+    margin: 4vw;
+  }
+  body .firstBlock .header-slogan {
+    width: 73%;
+  }
+  body .firstBlock .header-slogan h6 {
+    font-size: 4.5vw;
+  }
+  body .firstBlock .header-subtitle {
+    font-size: 8vw;
+  }
+  body .firstBlock .header-subtitle img {
+    width: 15%;
+  }
+  body .thirdBlock .subtitle h6 {
+    font-size: 8vw;
+  }
+  body .thirdBlock a {
+    font-size: 5vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1.8vh;
+    padding-bottom: 1.8vh;
+  }
+  body footer img {
+    width: 50%;
+  }
+  body footer h4 {
+    font-size: 1.5vw;
+  }
+  body h1 {
+    font-size: 16vw;
+  }
+  body textarea {
+    font-size: 1em;
+  }
+  body .carousel-container .carousel-card {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+  }
+  body .carousel-container .carousel-card .carousel-wrapper select {
+    font-size: 5vw;
+    margin-bottom: 10%;
+    width: 75vw;
+  }
+  body
+    .carousel-container
+    .carousel-card
+    .carousel-wrapper
+    .caption-option
+    .previous-style {
+    display: none;
+  }
+  body
+    .carousel-container
+    .carousel-card
+    .carousel-wrapper
+    .caption-option
+    .previous-style-mobile {
+    display: inline-block;
+    margin-right: 5vw;
+  }
+  body
+    .carousel-container
+    .carousel-card
+    .carousel-wrapper
+    .caption-option
+    button {
+    width: 10vw;
+    padding: 0;
+    outline: none;
+    margin-top: 5%;
+  }
+  body
+    .carousel-container
+    .carousel-card
+    .carousel-wrapper
+    .caption-option
+    button
+    img {
+    padding: 5%;
+    width: 75%;
+  }
+  body .carousel-container .carousel-card .button-container {
+    position: absolute;
+    bottom: 10vh;
+  }
+  body .carousel-container .carousel-card .button-container input,
+  body .carousel-container .carousel-card .button-container button {
+    font-size: 7vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    line-height: 35px;
+  }
+  body .carousel-container .carousel-card .button-container .regenerate {
+    display: none;
+  }
+}
+@media (min-width: 0px) and (max-width: 319px) {
+  html {
+    display: none;
+  }
+}

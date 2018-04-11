@@ -3,45 +3,37 @@ html {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;   
+  user-select: none;
 }
-
 textarea {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
 h6 {
   color: white;
   font-weight: lighter;
 }
-
 h5 {
   font-weight: 300;
   font-size: 4vw;
   margin: 0;
 }
-
 h4 {
   margin: 0;
   font-weight: 350;
   font-size: 2vw;
 }
-
 h1 {
   font-weight: 300;
   margin: 0;
 }
-
 a {
   text-decoration: none;
   color: inherit;
 }
-
 input,
 button {
   border: none;
 }
-
 input {
   -webkit-appearance: none;
 }

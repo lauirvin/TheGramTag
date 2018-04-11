@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/* Main Stylesheet */
+
+/* Variables */
+@import "variables/media-queries.css";
+
+/* Layout */
+@import "layout/global.css";
+@import "layout/layout.css";
