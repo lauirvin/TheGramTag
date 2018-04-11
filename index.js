@@ -47,13 +47,18 @@ app.post("/generated", urlencodedParser, (req, res) => {
   const captionStyle = req.body.document;
   
   const sqlSelect = `SELECT ${subCategories} FROM ${mainCategories} ORDER BY RANDOM() LIMIT 30`;
+  // Select all values from database using SQL statement initialized above 
   db.all(sqlSelect, (err, generatedText) => {
     let list = [];
+    // Append each value to array
     generatedText.forEach(row => {
       list.push(row[`${subCategories}`]);
     });
+    // Convert array to string
     let hashtags = String(list);
+    // Replace comma ',' with new line '\n'
     hashtags = hashtags.replace(/,/g, "\n");
+    // Declare data to be used/rendered
     const data = {
       hashtags: hashtags,
       captionStyle: captionStyle
