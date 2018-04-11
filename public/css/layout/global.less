@@ -128,7 +128,7 @@ body {
       text-align: center;
       max-width: 1920px;
       .subtitle {
-        padding-top: 65vh;
+        padding-top: 50vh;
         margin-bottom: 5vh;
         h6 {
           margin: 0;
@@ -141,10 +141,6 @@ body {
         border: none;
         background: #dd4855;
         color: white;
-        padding-left: 2.5vw;
-        padding-right: 2.5vw;
-        padding-top: 1.3vh;
-        padding-bottom: 1.3vh;
         border-radius: 10px;
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
@@ -186,32 +182,32 @@ body {
       &.mod-last-card {
         margin-right: 10vw;
       }
-      h1 {
-        max-height: 15%;
-        text-align: center;
-        vertical-align: middle;
-        display: table-cell;
-        width: 100vw;
-        overflow-wrap: break-word;
-      }
       .carousel-wrapper {
-        display: table;
-        width: 100%;
-        height: 75%;
+        height: 100%;
+        h1 {
+          overflow-wrap: break-word;
+        }
+        .card-title {
+          width: 100%;
+        }
         .carousel-content {
-          text-align: center;
-          display: table-cell;
-          &.mod-vertical-align {
-            vertical-align: middle;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          height: 59%;
+          &.mod-no-title {
+            height: 64%;
           }
           .generated-text {
             margin-top: 5vh;
           }
           textarea {
+            height: 100%;
+            width: 90%;
             display: block;
             margin: 0 auto;
-            width: 90%;
-            height: 75%;
             border: 1px solid black;
             resize: none;
             -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
@@ -219,52 +215,80 @@ body {
             box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
           }
         }
-      }
-      .button-container {
-        position: absolute;
-        bottom: 0;
-        text-align: center;
-        max-height: 10%;
-        display: table;
-        width: 100%;
-        .disabled {
-          background: #c0c0c0;
-          margin: 3%;
-        }
-        .next {
-          background: #62b466;
-          margin: 3%;
-        }
-        .back {
-          background: #7bd2ff;
-        }
-        .regenerate {
-          background: #62b466;
-        }
-        .copy-to-clipboard {
-          background: #9baefd;
+        select {
           display: block;
-          margin: 0 auto;
-          margin-bottom: 3%;
-          margin-top: 3%;
+          border: solid 1px black;
+          height: auto;
         }
-        button {
-          display: table-cell;
-          vertical-align: middle;
-          border: none;
-          color: white;
-          border-radius: 80px;
-          outline: none;
+        .caption-option {
+          width: 100%;
+          height: 95%;
+          .caption-style {
+            vertical-align: middle;
+          }
+          .next-style {
+            vertical-align: middle;
+            display: inline-block;
+            background: none;
+          }
+          .previous-style {
+            vertical-align: middle;
+            background: none;
+          }
+          .previous-style-mobile {
+            vertical-align: middle;
+            background: none;
+          }
         }
-        input {
-          color: white;
-          display: inline;
-          vertical-align: middle;
-          border: none;
-          border-radius: 80px;
-          outline: none;
-          text-align: center;
-        }
+      }
+    }
+    .button-container {
+      text-align: center;
+      max-height: 10%;
+      display: table;
+      width: 100%;
+      &.mod-multiline {
+        margin-top: 5vh;
+      }
+      .disabled {
+        background: #c0c0c0;
+        margin: 3%;
+      }
+      .next {
+        background: #62b466;
+        margin: 3%;
+      }
+      .back {
+        background: #7bd2ff;
+        margin-right: 2vw;
+      }
+      .regenerate {
+        background: #62b466;
+        margin-left: 2vw;
+      }
+      .copy-to-clipboard {
+        background: #9baefd;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 3%;
+        margin-top: 3%;
+      }
+      button {
+        display: table-cell;
+        vertical-align: middle;
+        border: none;
+        color: white;
+        border-radius: 80px;
+        outline: none;
+      }
+      input {
+        color: white;
+        display: inline;
+        vertical-align: middle;
+        border: none;
+        border-radius: 80px;
+        outline: none;
+        text-align: center;
       }
     }
   }

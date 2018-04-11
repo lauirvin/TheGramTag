@@ -14,16 +14,16 @@
     <div class="carousel-container">
       <div id="3" class="carousel-card mod-last-card ">
         <div class="carousel-wrapper">
-          <div class="carousel-content mod-vertical-align">
+          <div class="carousel-content mod-no-title">
             <textarea readonly id="generated-text" class="generated-text">${captionStyle}${hashtags}</textarea>
-            <div class="button-container">
+          </div>
+          <div class="button-container mod-multiline">
               <form action="/getstarted" method="get">
                 <input type="submit" class="back" value="Back">
                 <input type="button" class="regenerate" value="Regenerate" onClick="regenerate()">
                 <input type="button" class="copy-to-clipboard" value="Copy to Clipboard" onClick="copytoClipboard()">
               </form>
             </div>
-          </div>
         </div>
       </div>
     </div>

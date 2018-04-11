@@ -16,9 +16,11 @@
     <form onchange="emptyForm()" action="/generated" method="post" id="theForm">
       <div class="carousel-container">
         <div id="1" class="carousel-card">
-          <h1>Get Started</h1>
           <div class="carousel-wrapper">
-            <div class="carousel-content mod-vertical-align">
+            <div class="card-title">
+              <h1>Get Started</h1>
+            </div>
+            <div class="carousel-content">
               <select id="mainCategories" name="mainCategories" required onchange="populate(this.id,'subCategories')">
                 <option disabled selected>
                   Select main category...
@@ -41,17 +43,19 @@
                   Select subcategory...
                 </option>
               </select>
-              <div class="button-container">
-                <button disabled id="next" type="button" class="disabled" onclick="scrolltoCard2()">
-                  Next
-                </button>
-              </div>
+            </div>
+            <div class="button-container">
+              <button disabled id="next" type="button" class="disabled" onclick="scrolltoCard2()">
+                Next
+              </button>
             </div>
           </div>
         </div>
         <div id="2" class="carousel-card mod-last-card">
-          <h1>Caption Style</h1>
           <div class="carousel-wrapper">
+            <div class="card-title">
+              <h1>Caption Style</h1>
+            </div>
             <div class="carousel-content">
               <div class="caption-option">
                 <button type="button" class="previous-style" id="decrement">
@@ -66,12 +70,12 @@
                 </button>
               </div>
             </div>
-          </div>
-          <div class="button-container">
-            <button type="button" class="back" onclick="scrolltoCard1()">
-              Back
-            </button>
-            <input class="next" id="category" type="submit" name="category" value="Next">
+            <div class="button-container">
+              <button type="button" class="back" onclick="scrolltoCard1()">
+                Back
+              </button>
+              <input class="next" id="category" type="submit" name="category" value="Next">
+            </div>
           </div>
         </div>
       </div>
