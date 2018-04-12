@@ -21,6 +21,7 @@
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "express-es6-template-engine": "^2.0.3",
+    "jsdoc": "^3.5.5",
     "mysql": "^2.15.0",
     "nodejs": "0.0.0",
     "nodemon": "^1.17.1",
