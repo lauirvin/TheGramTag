@@ -1,4 +1,4 @@
-"use strict";
+'use strict'
 
 /** Express module configurations */
 const express = require("express");

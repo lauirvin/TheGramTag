@@ -19,6 +19,8 @@
   "homepage": "https://github.com/lauirvin/TheGramTag#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "eslint-config-google": "^0.9.1",
+    "eslint-config-standard": "^11.0.0",
     "express": "^4.16.2",
     "express-es6-template-engine": "^2.0.3",
     "jsdoc": "^3.5.5",
@@ -27,5 +29,8 @@
     "nodemon": "^1.17.1",
     "readline-sync": "^1.4.9",
     "sqlite3": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-rallycoding": "^3.2.0"
   }
 }
