@@ -33,4 +33,5 @@ function copytoClipboard() {
   copyText.setSelectionRange(0, 2200);
   /** Executes 'Copy' command */
   document.execCommand("Copy");
+  alert("Copied to Clipboard!")
 }
