@@ -1,3 +1,4 @@
+/* High Resolution Desktop or Laptop Devices */
 @media (min-width: 1281px) {
   body header {
     margin-left: 2vw;
@@ -120,6 +121,7 @@
     line-height: 70px;
   }
 }
+/* Low Resolution Desktop or Laptops */
 @media (min-width: 1025px) and (max-width: 1280px) {
   body header {
     margin-left: 2vw;
@@ -243,6 +245,7 @@
     line-height: 65px;
   }
 }
+/* Tablet Devices (Portrait) */
 @media (min-width: 768px) and (max-width: 1024px) {
   body header .header-logo {
     text-align: center;
@@ -370,6 +373,7 @@
     display: none;
   }
 }
+/* Tablet Devices (Landscape) */
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   body header {
     margin-left: 2vw;
@@ -492,6 +496,7 @@
     line-height: 50px;
   }
 }
+/* High Resolution Mobile Devices or Low Resolution Tablets */
 @media (min-width: 481px) and (max-width: 767px) {
   body header .header-logo {
     text-align: center;
@@ -608,6 +613,7 @@
     display: none;
   }
 }
+/* Mobile Devices - Smartphones */
 @media (min-width: 320px) and (max-width: 480px) {
   body header .header-logo {
     text-align: center;
@@ -722,6 +728,7 @@
     display: none;
   }
 }
+/* Low resolution mobile devices */
 @media (min-width: 0px) and (max-width: 319px) {
   html {
     display: none;
