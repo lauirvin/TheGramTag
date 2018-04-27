@@ -4,7 +4,7 @@ Instagram caption styler and hashtag generator for increasing audience engagemen
 ## Deployment
 1. Locate the repository in bash
 2. Run ```node index.js```
-3. Open a browser and navigate to ```localhost:8080```
+3. Open browser and navigate to ```localhost:8080```
 
 ### Prerequisites
 1. Install NodeJS https://nodejs.org/en/
